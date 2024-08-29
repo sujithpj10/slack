@@ -1,0 +1,1027 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+/*navigation bar codes*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    font-size: 15px;
+    padding: 16px 0px;
+}
+.left-section nav
+{
+    display: flex;
+    align-items: center;
+}
+.left-section nav img
+{
+   padding-right: 30px; 
+}
+.left-section nav i
+{
+    padding: 0px 20px 0px 5px;
+}
+.nav-group a, .right-section a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.right-section button
+{
+    margin-left: 20px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.right-section a
+{
+    padding-left: 20px;
+}
+.nav-button-1
+{
+    letter-spacing: 2px;
+    background-color: white;
+    color: #611f69;
+    border: 2px solid #611f69;
+    transition: 0.3s all ease-in-out;
+}
+.nav-button-2
+{
+    letter-spacing: 2px;
+    background-color: #611f69;
+    color: white;
+    transition: 0.3s all ease-in-out;
+}
+.nav-button-1:hover
+{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1.5px #611f69;
+}
+.nav-button-2:hover
+{
+    cursor: pointer;
+    background-color: #47164c;
+}
+
+/*code for main text sections and the buttons*/
+.content
+{
+    width: 100%;
+}
+.main-section h1, .main-section span
+{
+    line-height: 1.3;
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -1.5px;
+}
+.main-section span
+{
+    padding-top: 10px;
+    color: #611f69;
+}
+.signup-buttons
+{
+    display: flex;
+    justify-content: center;
+}
+.signup-buttons button
+{
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.signup-button-1
+{
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 19px 40px 20px;
+}
+.signup-button-2
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 16px 0px 64px;  
+    position: relative;
+}
+.signup-buttons img
+{
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    transform: translate(130%,8%);
+}
+.signup-button-1
+{
+    background-color: #611f69;
+    transition: 0.3s all ease-in-out;
+}
+.signup-button-2
+{
+    background-color: #4285f4;
+}
+.signup-button-1:hover
+{
+    background-color: #47164c;
+}
+.slack-free-text h1, .slack-free-text span
+{
+    line-height: normal;
+    letter-spacing: normal;
+    color: black;
+    font-size: 18px;
+}
+.slack-free-text h1
+{
+    font-weight: normal;
+}
+.slack-free-text span
+{
+    font-weight: bold;
+}
+/*video css */
+.max-width
+{
+    position: relative;
+    margin: 0;
+    
+}
+.video-1 video
+{
+    transform: translateX(20%);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.video-1::after
+{
+    content: "";
+    background-color: #f4ede4;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* .empty-bg
+{
+    background-color: #f4ede4;
+    height: 41%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: -111;
+} */
+
+/* content 2 css*/
+.content-2
+{
+    background-color: #f4ede4;
+    margin: 0 auto;
+}
+.text-1 h2
+{
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    margin: 0;
+}
+.brand-logo
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 10%;
+}
+
+.rows
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5% 10%;
+    margin: 20px 100px; 
+    
+}
+.video-2 video
+{
+    margin: 20px 0px 0px 0px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+.text-2 h2
+{
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: -1px;
+
+}
+.text-2 p, .text-3 p, .text-4 p
+{ 
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.text-2 a, .text-3 a, .text-4 a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #1264a3;
+ 
+}
+
+.text-3 h2
+{
+    width: 480px;
+    letter-spacing: -1px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.video-3 video
+{
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.text-4 h2
+{
+    width: 480px;
+    letter-spacing: -1px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+}
+.video-4 video
+{
+    margin-top: 25px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+.video-4
+{
+    background-color: #f4ede4;
+
+}
+.text-4{
+
+    background-color: #f4ede4;
+}
+.rows
+{
+    background-color: #f4ede4;
+}
+.bg-empty-2
+{
+background-color: #f4ede4;
+height: 130px;
+width: 100%;
+}
+
+
+
+/*css for content 3 */
+.text-5
+{
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+}
+.text-5 h1
+{
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+.text-5 p
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+.buttons-3
+{
+    display: flex;
+    justify-content: center;
+
+}
+.buttons-3 button
+{
+    margin: 16px 0px 0px 14px;
+    padding: 19px 40px 20px;
+    letter-spacing: 1px;
+    outline: none;
+    border-radius: 2px solid #611f69;
+}
+.buttons-3 button:first-child
+{
+    background-color: #611f69;  
+    border-radius: 5px;  
+    color: white;
+    font-weight: bold;
+    transition: 0.3s all ease-in-out;
+    border: none;
+}
+.buttons-3 button:last-child
+{
+    background-color: white;
+    border-radius: 5px;
+    color: #611f69;
+    border-radius: 2px solid #611f69 !important;
+    font-weight: bold;
+    transition: 0.3s all ease-in-out;
+}
+
+.buttons-3 button:first-child:hover
+{
+    cursor: pointer;
+    background-color: #47164c;
+}
+
+.buttons-3 button:last-child:hover
+{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1.7px #611f69;
+}
+
+/*content 3 styles */
+
+.percentages
+{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 105px;
+}
+.p-1 p, .p-2 p, .p-3 p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.p-1 h1, .p-2 h1, .p-3 h1
+{
+    font-size: 64px;
+    margin-bottom: 0;
+    color: #611f69;
+}
+.p-bottom-text
+{
+    font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+    width: 190px;
+    height: 90px;
+    font-weight: 400;
+}
+
+.slack-vodafone
+{
+    height: 500px;
+    display: flex;
+    gap: 10%;
+    width: 100%;
+    align-items: center;
+    font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+.vodafone-video video
+{
+    clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+}
+.side-p
+{
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.3;
+    
+}
+.side-description p span
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.side-p-2
+{
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.side-link
+{
+    font-size: 18px;
+    text-decoration: none !important;
+    color: #1264a3 !important;
+}
+
+.slack-usa-text
+{
+    font-size: 14px;
+    color: #696969;
+    padding:0px 0px 8px;
+    margin: 0px 0px 16px;
+    text-align: center;
+    font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/*styling for cards section*/
+.max-width-cards
+{
+    background-color: #f4ede4;
+    width: 100%;
+}
+.card-text
+{
+    text-align: center;
+    padding: 20px;
+}
+.cards
+{
+    display: flex;
+    height: 500px;
+    background-color: #f4ede4;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    
+}
+.card-1, .card-2, .card-3, .card-4
+{
+    width: 285px;
+    height: 420px;
+    background-color: white;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1);
+    transition: 0.2s all ease-in-out;
+}
+
+.card-1 img, .card-2 img, .card-3 img, .card-4 img
+{
+    padding: 12px;
+}
+.card-1 div, .card-2 div, .card-3 div, .card-4 div
+{
+    padding: 0px 12px;
+}
+.card-1-span-1, .card-2-span-1, .card-3-span-1, .card-4-span-1
+{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.card-1-heading, .card-2-heading, .card-3-heading, .card-4-heading
+{
+    font-size: 24px;
+    margin-top: 0;
+    line-height: 1.2;
+}
+.card-1 div a, .card-2 div a, .card-3 div a, .card-4 div a
+{
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+ justify-content: space-between;
+ color: #1264a3;
+ margin: 30% 0%;
+}
+
+.card-2 div a
+{
+    margin: 20% 0%;
+}
+.card-3 div a
+{
+    margin: 20% 0%;
+}
+
+/* hovering effects for cards*/
+.card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 2rem rgba(0,0,0,.3);
+}
+
+/*footer section */
+.footer
+{
+    width: 100%;
+}
+.footer-header
+{
+    background-color: #4a154b;
+    clip-path: ellipse(75% 100% at center top);
+    height: 370px;
+    margin-top: 0;
+}
+.footer-header h1
+{
+    font-size: 50px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 0;
+    padding: 5% 0% 0%;
+    color: white;
+}
+.footer-buttons
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-buttons button
+{
+    padding: 19px 40px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: none;
+    transition: 0.2s all ease-in-out;
+}
+.footer-buttons button:first-child
+{
+    cursor: pointer;
+    color: #611f69;
+    background-color: white;
+}
+.footer-buttons button:last-child
+{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1px #fff;
+    background-color: transparent;
+    color: white;
+}
+.footer-buttons button:first-child:hover
+{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1.7px #611f69;
+}
+.footer-buttons button:last-child:hover
+{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1.7px white;
+}
+
+/* footer links */
+
+.footer-links
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    font-size: 14px;
+    justify-content: space-evenly;
+}
+.footer-links span
+{
+    font-weight: bold;
+    line-height: 3;
+}
+.footer-links a
+{
+    color: #454245;
+    text-decoration: none;
+    line-height: 3;
+    transition: color 0.2s ease-in-out;
+}
+.footer-links a:hover
+{
+    color: #1264a3;
+}
+
+/* Social logos */
+.footer-bottom
+{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #696969;
+    padding-top: 30px;
+    padding: 40px 0;
+    
+}
+.footer-bottom a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    padding: 100px 10px 0px 10px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+
+}
+.social-logos i
+{
+
+   font-size: 20px;
+   transition: color 0.2s ease-in-out;
+}
+.social-logos i:first-child
+{
+    padding-right: 5px;
+}
+.social-logos a:first-child
+{
+    color: #4285f4;
+}
+.settings a:hover
+{
+    color: #4285f4;
+}
+.social-logos .twitter i:hover
+{
+    color: #4285f4;
+}
+.social-logos .facebook i:hover, .social-logos .linkedin i:hover
+{
+    color: #1453b8;
+}
+.social-logos .youtube i:hover
+{
+    color: #db0404;
+}
+
+.copy-rights p
+{
+    font-size: 12px;
+    padding-bottom: 60px;
+}
+
+/* link bottom hover*/
+
+.text-2 a, .text-3 a, .text-4 a, .side-description a{
+    position: relative;
+    padding: 4px 0px;
+}
+.text-2 a::after, .text-3 a::after, .text-4 a::after, .side-description a::after
+{ 
+    content: "";
+    position: absolute;
+    height: 2.3px;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    background-color: #1264a3;
+    transition: width 0.3s ease-in-out;
+}
+.text-2 a:hover::after, .text-3 a:hover::after, .text-4 a:hover::after, .side-description a:hover::after
+{
+    width: 100%;
+}
+
+.right-section a:hover, .nav-group a:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+
+.vodafone-video
+{
+    position: relative;
+}
+.vodafone-video i
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#36c5f0;
+    font-size: 100px;
+    transition: color 0.2s ease-in-out;
+}
+.vodafone-video i:hover
+{
+    color: #1453b8;
+}
+
+/* responsive designs */
+.header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.brand-logo
+{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.rows{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.slack-vodafone
+{
+    max-width: 1530px;
+    margin: 0 auto;
+}
+.card-text{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.video-1
+{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.percentages
+{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.cards
+{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+.max-width-footer, .footer-links, .footer-bottom
+{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.max-width-copy
+{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.hamburger
+{
+    display: none;
+}
+/*nav bar drop*/
+
+.nav-link-1
+{
+    position: relative;
+}
+.dropdown
+{
+    position: absolute;
+    background-color: #ffffff;
+    display: flex;
+    width: 900px;
+    box-sizing: border-box;
+    height: 525px;
+    z-index: 11;
+    border-radius: 8px;
+    transform: translateX(25%);
+    display: none;
+    box-shadow: 0 1px 10px rgba(0,0,0,.2);
+    font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+    animation: all 0.3s ease-in-out;
+}
+
+.dropdown ul li, .dropdown h1
+{
+    font-size: 15px;
+    list-style: none;
+    
+}
+.dropdown li a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #696969;
+}
+.dropdown ul
+{
+    padding: 3px 0px;
+
+}
+.dropdown ul li:first-child
+{
+    padding: 4px 0px;
+}
+.drop1
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5%;
+    padding: 16px;
+}
+.drop2
+{
+    background-color: #f4ede4;
+    padding: 16px;
+}
+.drop2 div a
+{
+    text-decoration: none;
+    font-size: 15px;
+}
+.drop2 img
+{
+    margin: 0px 8px 0px 0px;
+}
+.drop2 li
+{
+
+    padding: 10px 0px;
+}
+.drop2 div li 
+{
+    padding:0px;
+}
+.drop2 .nav-slackfor a{
+    color: black;
+}
+.drop2 .log ul li a:first-child
+{
+    color: black;
+
+}
+
+@keyframes fade
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+@keyframes rotate
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(180deg);
+    }
+}
+
+
+/* Media queries for Laptop L 1024px */
+
+@media only screen and (max-width:1024px)
+{
+    body
+    {
+        margin: 0;
+    }   
+    .right-section a, .right-section button, .nav-group
+    {
+        display:none;
+    }
+    .hamburger
+    {
+        font-size: 20px;
+        display: inline;
+        margin-left: 32px;
+    }
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 41px;
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+    .right-section i
+    {
+        font-size: 18px;
+    }
+
+    .video-1 video
+    {
+        width: 860px;
+        height: 522px;
+        transform: translateX(10%);
+    }
+    .brand-logo
+    {
+        padding: 0px 41px;
+    }
+
+    .rows
+    {
+        gap: 0% 5%;
+    }
+    .video-2 video, .video-3 video, .video-4 video
+    {
+        width: 480px;
+        height: 276px;
+        padding: 45px 0px;
+        align-items: center;
+    }
+
+    .text-2, .text-4
+    {
+        width: 395px;
+        height: 303px;
+        padding: 20px 0px;
+    }
+    .text-2 h2, .text-3 h2, .text-4 h2
+    {
+        margin-bottom: 0;
+        font-size: 40px;
+        padding: 0px 26px 0px 0px
+    }
+    .text-3{
+        width: 395px;
+        height: 303px;
+        padding: 20px 40px 0px;
+    }
+    .text-3 a, .text-2 a, .text-4 a
+    {
+        display: inline;
+        padding: 0;
+        font-size: 17px;
+    }
+    .text-3 h2
+    {
+        width: 395px;
+    }
+    .bg-empty-2
+    {
+        display: none;
+    }
+
+    .vodafone-video video
+    {
+        width: 520px;
+        height: 292px;
+    }
+    .side-description
+    {
+        padding: 0px 10px
+    }
+    .slack-usa-text
+    {
+        font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+        padding: 0px 41px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        gap: 2%;
+        
+    }
+    .card-1, .card-2, .card-3, .card-4
+    {
+        width: 219px;
+        height: 450px;
+        background-color: white;
+        position: relative;
+        
+        
+    }
+    .card-1 img, .card-2 img, .card-3 img, .card-4 img
+    {
+        width: 194px;
+        height: 184px;
+    }
+
+    .card-1-heading, .card-2-heading, .card-3-heading, .card-4-heading
+    {
+        font-size: 24px;
+        width: 194px;
+        height: 29px;
+
+    }
+
+    .card-1-span-2, .card-2-span-2, .card-3-span-2, .card-4-span-2
+    {
+        font-style: 14px;
+
+        
+    }
+    .card-1 a img,.card-2 a img, .card-3 a img, .card-4 a img
+    {
+        width: 25px;
+        height: 14px;
+    }
+    .card-1 a
+    {
+        position: absolute;
+        transform: translateY(80%);
+    }
+    .card-2 a
+    {
+        position: absolute;
+        transform: translateY(100%);   
+    }
+}
